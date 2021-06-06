@@ -1,0 +1,39 @@
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0d1131;
+}
+
+.footer * {
+    color: #a4a7c1;
+    font-weight: 500;
+    background-color: #0d1131;
+}
+
+.footer .fa-heart {
+    font-weight: 600;
+    color: #ff4f4f;
+}
+
+.footer .fa-code {
+    font-weight: 600;
+}
+
+.footer .links {
+    display: inline-flex;
+    font-size: 1.5rem;
+    margin-top: .7rem;
+}
+
+.footer .links a {
+    padding: 0 .3rem;
+    transition: all .5s;
+}
+.footer .links i{
+    transition: all .5s;
+}
+
+.footer .links a:hover i{
+    color: #00c58e;
+    transform: translateY(-.4rem);
+}

@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #070919;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.green-button {
+    color: #00c58e;
+    text-decoration: none;
+    border: 0.1rem #00c58e solid !important;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.9rem;
+    margin: 0.5rem;
+    transition: all 0.3s !important;
 }
+
+.green-button:hover {
+    color: #070919;
+    background-color: #00c58e;
+}
+

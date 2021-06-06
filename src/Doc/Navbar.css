@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    padding: 1.9rem;
+    align-items: center;
+}
+.navbar .brand {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+.navbar .brand h1 {
+    color: #00c58e;
+}
+
+.navbar .brand .brand-image {
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+    border: 0.1rem #00c58e solid;
+    border-radius: 3rem;
+    margin-right: 1rem;
+}
+
+.navbar .brand .brand-image img {
+    width: 3rem;
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+.navbar .links a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.5rem 0.8rem;
+    border-bottom: 0.1rem transparent solid;
+    transition: all .5s;
+}
+
+.navbar .links a:hover {
+    border-bottom-color: #a4a7c1;
+}

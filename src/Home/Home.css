@@ -1,0 +1,75 @@
+.home {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-area{
+    margin-top: 1rem;
+    line-height: 3rem;
+}
+.banner-area .heart-symbol i {
+    color: #ff4f4f;
+}
+
+.banner-area .banner-img {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.banner-area .banner-img img{
+    max-width: 30rem;
+}
+
+.list-area {
+
+}
+
+.list-area .list {
+    display: flex;
+    font-size: 1.2rem;
+    padding: 2rem 0;
+}
+
+.list-area .list:hover > .icon i {
+    color: #00c58e;
+}
+
+.list-area .list .icon {
+    text-align: center;
+}
+
+.list-area .list .icon i {
+    align-self: center;
+    font-size: 3rem;
+    width: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #a4a7c1;
+    transition: all .8s;
+}
+
+.list-area .list .description {
+    align-self: center;
+}
+
+.list-area .list .description p {
+    font-weight: 500;
+    color: #a4a7c1;
+}
+
+.list-area .list .description .link {
+    text-decoration: none;
+    color: #00c58e;
+    border-bottom: 0.1rem transparent solid;
+    transition: all .5s;
+}
+
+.list-area .list .description .link:hover {
+    border-bottom-color: #00c58e;
+}
+
+.blog-area {
+    padding: 2rem 0;
+    border-top: .1rem #a4a7c1 solid;
+}
