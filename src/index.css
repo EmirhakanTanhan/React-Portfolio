@@ -5,7 +5,10 @@
     font-family: 'Zilla Slab', serif;
     font-weight: 600;
     color: #fff;
-    background-color: #070919;
+}
+
+body {
+    background-color: #070919 !important;
 }
 
 .green-button {
