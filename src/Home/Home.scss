@@ -1,0 +1,153 @@
+.home {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .banner-area {
+        margin-top: 1rem;
+        line-height: 3rem;
+    }
+
+    .banner-area .heart-symbol i {
+        color: #ff4f4f;
+    }
+
+    .banner-area .banner-img {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .banner-area .banner-img img {
+        max-width: 30rem;
+    }
+
+    .list-area {
+
+    }
+
+    .list-area .list {
+        display: flex;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+    }
+
+    .list-area .list:hover > .icon i {
+        color: #00c58e;
+    }
+
+    .list-area .list .icon {
+        text-align: center;
+    }
+
+    .list-area .list .icon i {
+        align-self: center;
+        font-size: 3rem;
+        width: 4rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        color: #a4a7c1;
+        transition: all .8s;
+    }
+
+    .list-area .list .description {
+        align-self: center;
+    }
+
+    .list-area .list .description p {
+        font-weight: 500;
+        color: #f2f2f2;
+    }
+
+    .list-area .list .description .link {
+        text-decoration: none;
+        color: #00c58e;
+        border-bottom: 0.1rem transparent solid;
+        transition: all .5s;
+    }
+
+    .list-area .list .description .link:hover {
+        border-bottom-color: #00c58e;
+    }
+
+    .blog-area {
+        padding-top: 2rem;
+        border-top: .1rem #a4a7c1 solid;
+    }
+
+    .blog-area .blogs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blog-area h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 1rem 0;
+    }
+
+    .blog-area p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #a4a7c1;
+        padding: 1rem 0;
+    }
+
+    .blog-area .blog {
+        margin: 2rem 1rem;
+        display: inline-block;
+        width: 23rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: all .4s;
+    }
+
+    .blog-area .blog:hover {
+        transform: translateY(-1rem);
+    }
+
+    .blog-area .blog a {
+        text-decoration: none;
+        width: inherit;
+    }
+
+    .blog-area .blog .img {
+        width: inherit;
+        height: 13rem;
+    }
+
+    .blog-area .blog .img img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
+
+    .blog-area .blog .chin {
+        background-color: #0d1131;
+        padding: 1.5rem;
+    }
+
+    .blog-area .blog .chin .pills span {
+        font-size: .9rem;
+        padding: .3rem .5rem;
+        margin-right: .5rem;
+        color: #a4a7c1;
+        background-color: #070919;
+        border-radius: .8rem;
+    }
+
+    .blog-area .blog .chin .title p {
+        padding: 0;
+        margin: 1rem 0 .3rem 0;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .blog-area .blog .chin .date span {
+        color: #a4a7c1;
+        font-size: .8rem;
+        font-weight: 500;
+    }
+}
+

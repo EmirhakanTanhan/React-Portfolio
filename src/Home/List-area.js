@@ -6,7 +6,7 @@ const ListArea = () => {
         {
             id: 1,
             icon: 'fas fa-code',
-            description: 'I\'m a software engineering student in Istanbul, Turkey.',
+            description: 'I\'m a software engineering student in Istanbul, Turkey. If you have anything to say:',
             buttonTitle: 'Contact me',
             buttonLink: '/get-in-touch'
         },
@@ -36,7 +36,7 @@ const ListArea = () => {
                     <div className="description">
                         <p dangerouslySetInnerHTML={{__html: item.description}}></p>
                         <br/>
-                        {item.buttonTitle && <Link to={item.buttonLink} className="green-button">{item.buttonTitle}</Link>}
+                        {item.buttonTitle && <Link to={item.buttonLink} className="button-green">{item.buttonTitle}</Link>}
                     </div>
                 </div>
             ))}

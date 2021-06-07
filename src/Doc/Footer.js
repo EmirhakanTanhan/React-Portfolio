@@ -11,7 +11,7 @@ const Footer = () => {
 
     return (
         <div className="footer">
-            <span><i className="fas fa-code"></i> with <i className="fas fa-heart"></i> by Emir © 2021</span>
+            <span><i className="fas fa-code"></i> with <div className="heart" style={{"width" : ".7rem", "height" : ".7rem"}}></div> by Emir © 2021</span>
             <br/>
             <div className="links">
                 {list.map((item) => (

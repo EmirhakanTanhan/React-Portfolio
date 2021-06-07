@@ -1,18 +1,15 @@
+import './About.scss';
 import React from 'react';
-import './Home.scss';
 import BannerArea from "./Banner-area";
 import ListArea from "./List-area";
-import BlogArea from "./blog-area";
 
-
-const Home = () => {
+const About = () => {
     return (
-        <div className="home">
+        <div className="about">
             <BannerArea />
             <ListArea />
-            <BlogArea />
         </div>
     );
 };
 
-export default Home;
+export default About;

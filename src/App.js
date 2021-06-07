@@ -2,6 +2,7 @@ import Home from "./Home/Home";
 import Navbar from "./Doc/Navbar";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Footer from "./Doc/Footer";
+import About from "./About/About";
 
 function App() {
     return (
@@ -13,6 +14,9 @@ function App() {
 
                         <Route exact path="/">
                             <Home/>
+                        </Route>
+                        <Route exact path="/About">
+                            <About />
                         </Route>
 
                     </Switch>
