@@ -1,0 +1,61 @@
+.about {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about .banner-area {
+  display: flex;
+  padding: 2rem 0;
+}
+.about .banner-area .img {
+  width: 12rem;
+  height: 12rem;
+  padding-right: 5rem;
+}
+.about .banner-area .img img {
+  width: inherit;
+  height: inherit;
+  border-radius: 10rem;
+}
+.about .banner-area .description p {
+  line-height: 1.8rem;
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #a4a7c1;
+}
+.about .list-area-large {
+  padding: 3rem 0;
+}
+.about .list-area-large h1 {
+  padding-bottom: 1rem;
+}
+.about .list-area-large .list {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+.about .list-area-large .list .dot {
+  border: 0.1rem #00c58e solid;
+  border-radius: 5rem;
+  margin-right: 1.5rem;
+}
+.about .list-area-large .list div {
+  line-height: 1.8rem;
+}
+.about .list-area-large .list div * {
+  padding: 0;
+}
+.about .list-area-large .list div .date {
+  color: #a4a7c1;
+  font-weight: 400;
+}
+.about .list-area-large .list div .title {
+  font-size: 1.4rem;
+}
+.about .list-area-large .list div .firm, .about .list-area-large .list div a {
+  color: #a4a7c1;
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=About.css.map */
