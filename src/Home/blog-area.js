@@ -9,7 +9,7 @@ const BlogArea = () => {
             title: 'Figuring out a verification system via email link',
             date: 'May 31, 2020',
             link: 'https://dev.to/emirhakantanhan/figuring-out-a-verification-system-via-email-link-59p1'
-        }
+        },
     ])
 
     return (

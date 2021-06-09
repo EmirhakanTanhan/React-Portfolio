@@ -37,3 +37,14 @@
     color: #00c58e;
     transform: translateY(-.4rem);
 }
+
+@media (max-width: 767px) {
+    .footer {
+        display: none;
+        margin-top: 1.4rem;
+        background-color: transparent;
+    }
+    .footer * {
+        display: none;
+    }
+}

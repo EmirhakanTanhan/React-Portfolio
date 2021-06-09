@@ -1,7 +1,4 @@
 .home {
-    max-width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
 
     .banner-area {
         margin-top: 1rem;
@@ -18,6 +15,7 @@
     }
 
     .banner-area .banner-img img {
+        width: 80%;
         max-width: 30rem;
     }
 
@@ -55,7 +53,7 @@
 
     .list-area .list .description p {
         font-weight: 500;
-        color: #f2f2f2;
+        color: #a4a7c1;
     }
 
     .list-area .list .description .link {
@@ -148,6 +146,21 @@
         color: #a4a7c1;
         font-size: .8rem;
         font-weight: 500;
+    }
+}
+
+@media (max-width: 767px) {
+    .home {
+        margin-bottom: 5rem;
+    }
+
+    .list-area {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list-area .list {
+        flex-direction: column;
     }
 }
 

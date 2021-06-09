@@ -1,7 +1,4 @@
 .about {
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
 
   .banner-area {
     display: flex;
@@ -22,7 +19,6 @@
     .description {
       p {
         line-height: 1.8rem;
-        padding-top: 2rem;
         font-size: 1.3rem;
         font-weight: 400;
         color: #a4a7c1;
@@ -30,8 +26,8 @@
     }
   }
 
-  .list-area-large {
-    padding: 3rem 0;
+  .list-area_1 {
+    padding: 2.5rem 0;
 
     h1 {
       padding-bottom: 1rem;
@@ -50,22 +46,107 @@
 
       div {
         line-height: 1.8rem;
+
         * {
           padding: 0;
 
         }
+
         .date {
           color: #a4a7c1;
           font-weight: 400;
+          margin: 0;
         }
+
         .title {
           font-size: 1.4rem;
+          margin: 0;
         }
+
         .firm, a {
           color: #a4a7c1;
           font-size: 1.3rem;
+          margin: 0;
         }
       }
     }
   }
+
+  .list-area_2 {
+    padding: 2.5rem 0;
+
+    h1 {
+      padding-bottom: 1rem;
+    }
+
+    .list {
+      line-height: 2rem;
+
+      .item {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #a4a7c1;
+
+        .title {
+          font-size: 1.2rem;
+          font-weight: 400;
+          color: #a4a7c1;
+          display: inline-block;
+          width: 6.5rem;
+        }
+
+        .tech {
+          font-weight: 600;
+        }
+
+        &::marker {
+          color: #a4a7c1;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .list-area_3 {
+    padding: 2.5rem 0;
+
+    h1 {
+      padding-bottom: 1rem;
+    }
+
+    .list {
+
+      * {
+        line-height: 2.5rem;
+        font-size: 1.1rem;
+        color: #4a5568;
+      }
+
+      .language {
+        display: inline-block;
+        font-weight: 600;
+        width: 10rem;
+      }
+
+      .level {
+        font-weight: 400;
+      }
+    }
+
+  }
 }
+
+  @media (max-width: 767px) {
+    .about {
+      margin-bottom: 5rem;
+
+      .banner-area {
+        flex-direction: column;
+
+        .img {
+          padding: 0 0 1rem 0;
+          align-self: center;
+        }
+      }
+    }
+  }

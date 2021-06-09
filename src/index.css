@@ -1,14 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
 
 * {
-    margin: 0;
-    font-family: 'Zilla Slab', serif;
-    font-weight: 600;
-    color: #fff;
+
 }
 
 body {
     background-color: #070919 !important;
+    margin: 0;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    color: #fff;
+
+}
+.App {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    max-width: 900px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
 }
 
 .border-grey {
@@ -16,7 +31,7 @@ body {
 }
 
 .button-green {
-    color: #00c58e;
+    color: #00c58e !important;
     text-decoration: none;
     border: 0.1rem #00c58e solid !important;
     border-radius: 0.5rem;
@@ -26,7 +41,7 @@ body {
 }
 
 .button-green:hover {
-    color: #070919;
+    color: #070919 !important;
     background-color: #00c58e;
 }
 
@@ -52,7 +67,11 @@ body {
 }
 
 
-
+@media (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+}
 
 
 

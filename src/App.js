@@ -3,6 +3,7 @@ import Navbar from "./Doc/Navbar";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Footer from "./Doc/Footer";
 import About from "./About/About";
+import Contact from "./Contact/Contact";
 
 function App() {
     return (
@@ -15,8 +16,11 @@ function App() {
                         <Route exact path="/">
                             <Home/>
                         </Route>
-                        <Route exact path="/About">
+                        <Route exact path="/about">
                             <About />
+                        </Route>
+                        <Route exact path="/get-in-touch">
+                            <Contact />
                         </Route>
 
                     </Switch>

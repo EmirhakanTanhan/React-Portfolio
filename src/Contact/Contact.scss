@@ -1,0 +1,62 @@
+.contact {
+  display: flex;
+  margin-top: 4rem;
+
+  .contact-img {
+    max-width: 23rem;
+    margin-right: 3rem;
+
+    img {
+      max-width: inherit;
+      width: inherit;
+    }
+  }
+
+  .content {
+    line-height: 1.5rem;
+
+    p {
+      color: #a4a7c1;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    .links {
+      display: inline-flex;
+      font-size: 2rem;
+      margin-top: .7rem;
+
+      a {
+        color: #a4a7c1;
+        font-weight: 500;
+        padding: 0 .3rem;
+        transition: all .5s;
+
+        &:hover i {
+          color: #00c58e;
+          transform: translateY(-.4rem);
+        }
+      }
+
+      i {
+        transition: all .5s;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    margin-bottom: 7rem;
+    flex-direction: column;
+
+    .contact-img {
+      max-width: none;
+      width: 100%;
+    }
+
+    .content {
+      text-align: center;
+    }
+  }
+}

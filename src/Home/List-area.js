@@ -22,10 +22,6 @@ const ListArea = () => {
         }
     ]);
 
-    {list.map((item) => (
-        console.log(item)
-    ))}
-
     return (
         <div className="list-area">
             {list.map((item) => (
