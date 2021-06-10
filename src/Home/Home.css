@@ -1,3 +1,8 @@
+.home {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .home .banner-area {
   margin-top: 1rem;
   line-height: 3rem;
@@ -69,67 +74,17 @@
   color: #a4a7c1;
   padding: 1rem 0;
 }
-.home .blog-area .blog {
-  margin: 2rem 1rem;
-  display: inline-block;
-  width: 23rem;
-  border-radius: 1rem;
-  overflow: hidden;
-  transition: all 0.4s;
-}
-.home .blog-area .blog:hover {
-  transform: translateY(-1rem);
-}
-.home .blog-area .blog a {
-  text-decoration: none;
-  width: inherit;
-}
-.home .blog-area .blog .img {
-  width: inherit;
-  height: 13rem;
-}
-.home .blog-area .blog .img img {
-  width: inherit;
-  height: inherit;
-  object-fit: cover;
-}
-.home .blog-area .blog .chin {
-  background-color: #0d1131;
-  padding: 1.5rem;
-}
-.home .blog-area .blog .chin .pills span {
-  font-size: 0.9rem;
-  padding: 0.3rem 0.5rem;
-  margin-right: 0.5rem;
-  color: #a4a7c1;
-  background-color: #070919;
-  border-radius: 0.8rem;
-}
-.home .blog-area .blog .chin .title p {
-  padding: 0;
-  margin: 1rem 0 0.3rem 0;
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.home .blog-area .blog .chin .date span {
-  color: #a4a7c1;
-  font-size: 0.8rem;
-  font-weight: 500;
-}
 
 @media (max-width: 767px) {
   .home {
     margin-bottom: 5rem;
   }
-
-  .list-area {
+  .home .list-area {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
-
-  .list-area .list {
+  .home .list-area .list {
     flex-direction: column;
   }
 }

@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Footer from "./Doc/Footer";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
+import Portfolio from "./Portfolio/Portfolio";
+import PortfolioDetails from "./Portfolio/PortfolioDetails/PortfolioDetails";
 
 function App() {
     return (
@@ -18,6 +20,12 @@ function App() {
                         </Route>
                         <Route exact path="/about">
                             <About />
+                        </Route>
+                        <Route exact path="/portfolio">
+                            <Portfolio />
+                        </Route>
+                        <Route exact path="/portfolio/:link">
+                            <PortfolioDetails />
                         </Route>
                         <Route exact path="/get-in-touch">
                             <Contact />
