@@ -1,0 +1,57 @@
+.card-1 {
+  max-width: 69rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-1 .card {
+  margin: 2rem 1rem;
+  display: inline-block;
+  width: 21rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.card-1 .card:hover {
+  transform: translateY(-1rem);
+}
+.card-1 .card a {
+  text-decoration: none;
+  width: inherit;
+}
+.card-1 .card .card-img {
+  width: inherit;
+  height: 13rem;
+  background: linear-gradient(0deg, #0d1131 0%, #070919 45%);
+  text-align: center;
+}
+.card-1 .card .card-img img {
+  width: 80%;
+  height: inherit;
+  object-fit: contain;
+}
+.card-1 .card .chin {
+  background-color: #0d1131;
+  padding: 1.5rem;
+}
+.card-1 .card .chin .pills span {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+  margin-right: 0.5rem;
+  color: #a4a7c1;
+  background-color: #070919;
+  border-radius: 0.8rem;
+}
+.card-1 .card .chin .title p {
+  padding: 0;
+  margin: 1rem 0 0.3rem 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card-1 .card .chin .date span {
+  color: #a4a7c1;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=Components.css.map */

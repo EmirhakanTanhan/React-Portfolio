@@ -1,3 +1,8 @@
+.about {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .about .banner-area {
   display: flex;
   padding: 2rem 0;

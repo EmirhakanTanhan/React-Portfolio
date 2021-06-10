@@ -1,3 +1,56 @@
+<<<<<<< HEAD
 
+=======
+.portfolio .banner-area {
+  display: flex;
+  margin-top: 2rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio .banner-area .banner-img {
+  max-width: 23rem;
+  margin-right: 3rem;
+}
+.portfolio .banner-area .banner-img img {
+  max-width: inherit;
+  width: inherit;
+}
+.portfolio .banner-area .content {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  color: #a4a7c1;
+}
+.portfolio .banner-area .content p {
+  font-weight: 400;
+}
+.portfolio .list-area {
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .portfolio {
+    margin-bottom: 5rem;
+  }
+  .portfolio .banner-area {
+    flex-direction: column;
+  }
+  .portfolio .banner-area .banner-img {
+    width: 100%;
+    margin: 0;
+  }
+  .portfolio .banner-area .banner-img img {
+    width: inherit;
+  }
+  .portfolio .list-area {
+    display: flex;
+  }
+  .portfolio .list-area .card-1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+>>>>>>> dev
 
 /*# sourceMappingURL=Portfolio.css.map */

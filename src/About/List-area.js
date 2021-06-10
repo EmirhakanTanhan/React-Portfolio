@@ -63,7 +63,7 @@ const ListArea = () => {
                     {techSkill.map((tech) => (
                         <li className="item">
                             <span className="title">{tech.title}</span> · <span className="tech"
-                            dangerouslySetInnerHTML={{__html: tech.tech}}></span>
+                                                                                dangerouslySetInnerHTML={{__html: tech.tech}}></span>
                         </li>
                     ))}
                 </ul>

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"Portfolio.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["Portfolio.scss"],"names":[],"mappings":"AAEE;EACE;EACA;EAEA;EACA;EACA;;AAEA;EACE;EACA;;AAEA;EACE;EACA;;AAIJ;EACE;EACA;EACA;;AAEA;EACE;;AAKN;EACE;EACA;;;AAIJ;EACI;IACE;;EAEA;IACE;;EAEA;IACE;IACA;;EAEA;IACE;;EAKN;IACE;;EAEA;IACE;IACA","file":"Portfolio.css"}
+>>>>>>> dev

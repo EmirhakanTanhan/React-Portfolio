@@ -1,0 +1,73 @@
+.card-1 {
+  max-width: 69rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  .card {
+    margin: 2rem 1rem;
+    display: inline-block;
+    width: 21rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all .4s;
+
+    &:hover {
+      transform: translateY(-1rem);
+    }
+
+    a {
+      text-decoration: none;
+      width: inherit;
+    }
+
+    .card-img {
+      width: inherit;
+      height: 13rem;
+      background: linear-gradient(0deg, rgba(13,17,49,1) 0%, rgba(7,9,25,1) 45%);
+      text-align: center;
+
+      img {
+        width: 80%;
+        height: inherit;
+        object-fit: contain;
+      }
+    }
+
+    .chin {
+      background-color: #0d1131;
+      padding: 1.5rem;
+
+      .pills {
+
+        span {
+          font-size: .9rem;
+          padding: .3rem .5rem;
+          margin-right: .5rem;
+          color: #a4a7c1;
+          background-color: #070919;
+          border-radius: .8rem;
+        }
+      }
+
+      .title {
+
+        p {
+          padding: 0;
+          margin: 1rem 0 .3rem 0;
+          color: #fff;
+          font-size: 1.5rem;
+          font-weight: 600;
+        }
+      }
+
+      .date {
+
+        span {
+          color: #a4a7c1;
+          font-size: .8rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

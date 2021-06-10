@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["Contact.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;AAEA;EACE;EACA;;AAEA;EACE;EACA;;AAIJ;EACE;;AAEA;EACE;EACA;EACA;;AAGF;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;;AAIJ;EACE;;;AAMR;EACE;IACE;IACA;;EAEA;IACE;IACA;;EAGF;IACE","file":"Contact.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["Contact.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EAEA;EACA;;AAEA;EACE;EACA;;AAEA;EACE;EACA;;AAIJ;EACE;;AAEA;EACE;EACA;EACA;;AAGF;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;;AAIJ;EACE;;;AAMR;EACE;IACE;IACA;;EAEA;IACE;IACA;;EAGF;IACE","file":"Contact.css"}
+>>>>>>> dev
