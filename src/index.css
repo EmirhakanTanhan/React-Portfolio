@@ -17,8 +17,12 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
+.page {
 
-.content {
+}
+
+
+.App-content {
     /*max-width: 900px;*/
     width: 90%;
     margin-left: auto;
@@ -57,6 +61,7 @@ body {
 
 .link-grey {
     text-decoration: none;
+    color: #a4a7c1;
     border-bottom: 0.1rem transparent solid;
     transition: all .5s;
 }

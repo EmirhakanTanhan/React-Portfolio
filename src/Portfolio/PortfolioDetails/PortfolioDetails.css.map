@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"PortfolioDetails.css"}
+{"version":3,"sourceRoot":"","sources":["PortfolioDetails.scss"],"names":[],"mappings":";AAAA;EACE;EACA;EACA;;AAEA;EACE;EACA;;AAEA;EACE;EACA;;AAEA;EACE;EACA;;AAUF;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAGF;EACE;;AAMR;EACE;;AAEA;EACE;EACA;EACA;;AAGF;EACE;EACA;EACA;EACA;;AAGF;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;;AAGF;EACE;;AAEF;EACE;;;AAOV;EACE;IACE;;EAEA;IACE;;EAEA;IACE;IACA;IACA;;EAEA;IACE","file":"PortfolioDetails.css"}

@@ -1,6 +1,7 @@
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+
 import Home from "./Home/Home";
 import Navbar from "./Doc/Navbar";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Footer from "./Doc/Footer";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
@@ -12,28 +13,30 @@ function App() {
         <Router>
             <div className="App">
                 <Navbar/>
-                <div className="content">
+                <div className="App-content">
+
                     <Switch>
 
                         <Route exact path="/">
                             <Home/>
                         </Route>
                         <Route exact path="/about">
-                            <About />
+                            <About/>
                         </Route>
                         <Route exact path="/portfolio">
-                            <Portfolio />
+                            <Portfolio/>
                         </Route>
                         <Route exact path="/portfolio/:link">
-                            <PortfolioDetails />
+                            <PortfolioDetails/>
                         </Route>
                         <Route exact path="/get-in-touch">
-                            <Contact />
+                            <Contact/>
                         </Route>
 
                     </Switch>
+
                 </div>
-                <Footer />
+                <Footer/>
             </div>
         </Router>
     );

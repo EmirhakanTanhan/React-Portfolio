@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 .portfolio .banner-area {
   display: flex;
   margin-top: 2rem;
@@ -38,7 +35,8 @@
   }
   .portfolio .banner-area .banner-img {
     width: 100%;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .portfolio .banner-area .banner-img img {
     width: inherit;
@@ -51,6 +49,5 @@
     flex-direction: column;
   }
 }
->>>>>>> dev
 
 /*# sourceMappingURL=Portfolio.css.map */
