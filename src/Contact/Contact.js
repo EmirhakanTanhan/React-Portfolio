@@ -1,23 +1,24 @@
 import React, {useState} from 'react';
 import './Contact.scss';
 import svg_personalization from '../Assets/SVG/personalization.svg';
+import {useSelector} from "react-redux";
+import {Helmet} from "react-helmet";
 
 const Contact = () => {
+    const metaTag = useSelector(state => state.metaTag.find(item => item.page === 'contact'));
+    const link = useSelector(state => state.link);
+
     const [contact, setContact] = useState([
         {title: 'email', content: 'mailto:me@emirhakan.com'}
     ])
 
-    const [link, setLink] = useState([
-        {id: 1, link: 'https://github.com/EmirhakanTanhan', icon: 'fab fa-github'},
-        {id: 2, link: 'https://dev.to/emirhakantanhan', icon: 'fab fa-linkedin'},
-        {id: 3, link: 'https://www.linkedin.com/in/emirtanhan-/', icon: 'fab fa-dev'},
-        {id: 4, link: 'https://www.instagram.com/emirhakn/?hl=tr', icon: 'fab fa-instagram'},
-    ])
-
-    console.log();
-
     return (
         <div className="contact">
+            <Helmet>
+                <title>{metaTag.title}</title>
+                <meta name="description" content={metaTag.description}/>
+            </Helmet>
+
             <div className="contact-img">
                 <img draggable="false" src={svg_personalization}
                      alt="Emirhakan Tanhan (Crushing with this tie)"/>

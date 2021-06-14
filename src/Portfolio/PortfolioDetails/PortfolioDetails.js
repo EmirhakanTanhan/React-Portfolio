@@ -3,15 +3,22 @@ import './PortfolioDetails.scss';
 import {useParams, Link} from "react-router-dom";
 import {useSelector} from "react-redux";
 import brand from "../../Assets/IMG/EmirIMG.jpg";
+import {Helmet} from "react-helmet";
 
 const PortfolioDetails = () => {
     let {link} = useParams();
     link = '/' + link;
 
     const work = useSelector(state => state.work.find(item => item.link === link));
+    const metaTag = useSelector(state => state.metaTag.find(item => item.page === 'portfolio'))
 
     return (
         <div className="portfolio-details">
+            <Helmet>
+                <title>{work.title}</title>
+                <meta name="description" content={metaTag.description}/>
+            </Helmet>
+
             <div className="banner">
                 <div className="banner-img">
                     <img src={require(`../../Assets/SVG/${work.img}`).default} alt={work.title}/>

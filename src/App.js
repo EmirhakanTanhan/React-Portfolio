@@ -9,6 +9,7 @@ import Portfolio from "./Portfolio/Portfolio";
 import PortfolioDetails from "./Portfolio/PortfolioDetails/PortfolioDetails";
 
 function App() {
+
     return (
         <Router>
             <div className="App">
