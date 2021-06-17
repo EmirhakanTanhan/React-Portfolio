@@ -10,8 +10,8 @@ const BannerArea = () => {
             </div>
             <div className="content">
                 <p>I must warn you, I'm a beginner, a rookie 👶. My code and logic might not be so correct, and by the
-                    manuel. Also, you might come across to some work that is undone. But aside that, feel free to play
-                    with demos.</p>
+                    book. Also, you might come across to some work that is not finished yet. But aside that, feel free to play
+                    with online demos.</p>
                 <p>If you have anything to say:</p>
                 <Link to="/get-in-touch" className="button-green">Contact me</Link>
             </div>

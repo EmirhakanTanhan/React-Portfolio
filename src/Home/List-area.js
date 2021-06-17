@@ -6,7 +6,7 @@ const ListArea = () => {
         {
             id: 1,
             icon: 'fas fa-code',
-            description: 'I\'m a software engineering student in Istanbul, Turkey. If you have anything to say:',
+            description: 'I\'m a software engineering student in Istanbul, Turkey. I usually deal with web development. If you have anything to say:',
             buttonTitle: 'Contact me',
             buttonLink: '/get-in-touch'
         },
