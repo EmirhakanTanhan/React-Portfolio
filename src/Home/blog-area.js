@@ -10,7 +10,7 @@ const BlogArea = () => {
         <div className="blog-area">
             <div className="title">
                 <h2>Articles <i className="fas fa-feather"></i></h2>
-                <p>Once in a while, I write blog articles . Here are the most recent onces:</p>
+                <p>Once in a while, I write blog articles . Here are the most recent ones:</p>
             </div>
 
             <div className="blogs">
