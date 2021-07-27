@@ -6,7 +6,7 @@
 .card-1 .card {
   margin: 2rem 1rem;
   display: inline-block;
-  width: 21rem;
+  max-width: 21rem;
   border-radius: 1rem;
   overflow: hidden;
   transition: all 0.4s;
@@ -40,6 +40,7 @@
   color: #a4a7c1;
   background-color: #070919;
   border-radius: 0.8rem;
+  white-space: nowrap;
 }
 .card-1 .card .chin .title p {
   padding: 0;
