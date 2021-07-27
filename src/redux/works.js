@@ -38,10 +38,11 @@ const workInitalState = [
             '                    have an e-commerce or a blog page, you will need some feedback from the visitors. Such as which posts or items has the most views, how does\n' +
             '                    people react to your articles or which type of items are often added to shop cart. For all these reasons, you need a separate page that is\n' +
             '                    only allowed for admins. And this, <strong>what an admin page is</strong>.</p>\n' +
-            '                <p>Here\'s all you need to login as an admin:</p>\n' +
+            '                <p>If you want login as an admin, contact me via <a target="_blank" class="link-grey"\n' +
+            '                                                     href="mailto:me@emirhakan.com">Email <i class="fas fa-envelope-open-text" aria-hidden="true"></i></a></p>\n' +
             '                <ul>\n' +
-            '                    <li>Admin email · <span>me@emirhakan.com</span></li>\n' +
-            '                    <li>Admin password · <span>1</span></li>\n' +
+            '                    <li>Admin email · <span>Restricted <i class="fas fa-lock"></i></span></li>\n' +
+            '                    <li>Admin password · <span>Restricted <i class="fas fa-lock"></i></span></li>\n' +
             '                    <li>And of course, the link · <a target="_blank" class="link-grey"\n' +
             '                                                     href="https://satis.emirhakan.com/panel">satis.emirhakan.com/panel</a></li>\n' +
             '                </ul>'
