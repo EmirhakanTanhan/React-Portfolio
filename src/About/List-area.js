@@ -20,6 +20,7 @@ const ListArea = () => {
     const [techSkill, setTechSkill] = useState([
         {title: 'Learning', tech: '<a href="https://reactjs.org/" class="link-green" target="_blank">React.js</a>'},
         {title: 'Learning', tech: '<a href="https://nodejs.org/en/" class="link-green" target="_blank">Node.js</a>'},
+        {title: 'Learning', tech: '<a href="https://www.mongodb.com/" class="link-green" target="_blank">MongoDB</a>'},
         {title: 'Experienced', tech: '<a href="https://www.php.net/" class="link-green" target="_blank">PHP</a>'},
         {
             title: 'Experienced',
