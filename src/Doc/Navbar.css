@@ -52,7 +52,7 @@
     color: #00c58e !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 818px) {
     .navbar {
         padding: 1rem;
     }

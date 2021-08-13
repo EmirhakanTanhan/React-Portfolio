@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "./Home/Home";
 import Navbar from "./Doc/Navbar";
@@ -10,7 +10,6 @@ import PortfolioDetails from "./Portfolio/PortfolioDetails/PortfolioDetails";
 import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
-
     return (
         <Router>
             <ScrollToTop/>
@@ -43,6 +42,7 @@ function App() {
             </div>
         </Router>
     );
+
 }
 
 export default App;
