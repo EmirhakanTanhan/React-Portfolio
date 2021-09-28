@@ -26,9 +26,8 @@ const Contact = () => {
             <div className="content">
                 <p>Whether you are interested to do business 💼 with me, want to chat ✋ about some of my content, or just
                     want to hang out 🍻, I am happy to talk to you.</p>
-                <p>My <strong>preferred way</strong> of contact is via <a href={contact[0]['content']} className="link-green"
-                                                         target="_blank">Email <i
-                    className="fas fa-envelope-open-text"></i></a> .</p>
+                <p>My <strong>preferred way</strong> of contact is via <a href={contact[0]['content']} style={{whiteSpace: 'nowrap'}} className="link-green" target="_blank">Email
+                    <i className="fas fa-envelope-open-text"></i></a> .</p>
                 <p>Feel free to check out my social media presence below to get to know me better.</p>
                 <div className="links">
                     {link.map((item) => (

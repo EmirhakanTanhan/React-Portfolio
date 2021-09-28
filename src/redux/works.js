@@ -1,4 +1,4 @@
-import {createSlice} from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 /* for card:
 *   pills,
@@ -38,7 +38,7 @@ const workInitalState = [
             '                    have an e-commerce or a blog page, you will need some feedback from the visitors. Such as which posts or items has the most views, how does\n' +
             '                    people react to your articles or which type of items are often added to shop cart. For all these reasons, you need a separate page that is\n' +
             '                    only allowed for admins. And this, <strong>what an admin page is</strong>.</p>\n' +
-            '                <p>If you want login as an admin, contact me via <a target="_blank" class="link-grey"\n' +
+            '                <p>If you want login as an admin, contact me via <a target="_blank" class="link-green"\n' +
             '                                                     href="mailto:me@emirhakan.com">Email <i class="fas fa-envelope-open-text" aria-hidden="true"></i></a></p>\n' +
             '                <ul>\n' +
             '                    <li>Admin email · <span>Restricted <i class="fas fa-lock"></i></span></li>\n' +
@@ -63,6 +63,25 @@ const workInitalState = [
             '                    <li>User email · <span>deneme@deneme.com</span></li>\n' +
             '                    <li>User password · <span>123</span></li>\n' +
             '                    <li>And of course, the link · <a target="_blank" class="link-grey" href="https://satis.emirhakan.com">satis.emirhakan.com</a></li>\n' +
+            '                </ul>'
+    }, {
+        pills: ['SPA', 'Multiple-APIs', 'REST'],
+        title: 'Weather Forecast Site That Works Worldwide [Undone]',
+        date: 'September 28, 2021',
+        link: '/weather-forecast-1',
+        img: 'weather.svg',
+        details: '<h1>A weather forecast site that works worldwide</h1>\n' +
+            '                <p>This is a weather forecast site that you can search any city, region, state or a country worldwide. Site includes an autocomplete, local time\n' +
+            '                    and date of the searched place, various informations about the weather in a particular day, a chart showing hourly weather, several tabs\n' +
+            '                    showing daily previews and a picture of the searched place. chart.js library helped me creating the chart, and the rest is in pure js.\n' +
+            '                    I\'ve used: <a target="_blank" class="link-green" href="https://developers.teleport.org/api/">Teleport Public APIs</a> for the autocomplete\n' +
+            '                    to find places, <a target="_blank" class="link-green" href="https://openweathermap.org/api">OpenWeather API</a> for the weather data,\n' +
+            '                    <a target="_blank" class="link-green" href="https://developers.google.com/maps/documentation/places/web-service/details">Google Places API</a>\n' +
+            '                    and <a target="_blank" class="link-green" href="https://developers.google.com/maps/documentation/geocoding/overview">Google Geocoding API</a>\n' +
+            '                    for finding the picture of the searched place, <a target="_blank" class="link-green" href="https://www.geoplugin.com/">geoPlugin API</a>\n' +
+            '                    for finding the clients location.</p>\n' +
+            '                <ul>\n' +
+            '                    <li>The link · <a target="_blank" class="link-grey" href="http://weather.emirhakan.com">weather.emirhakan.com</a></li>\n' +
             '                </ul>'
     },
 ];

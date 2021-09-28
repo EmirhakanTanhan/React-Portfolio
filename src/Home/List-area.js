@@ -14,8 +14,8 @@ const ListArea = () => {
             description: '<a href="https://reactjs.org/" class="link" target="_blank">React.js</a> got me really interested, so for frontend work I\'m currently learning react.'
         },
         {
-            icon: 'fab fa-php',
-            description: 'For backend work, my go-to tool is <a href="https://www.php.net/" class="link" target="_blank">PHP</a>, but I\'m also learning <a href="https://nodejs.org/en/" class="link" target="_blank">Node.js</a> to blend with react more smoothly.'
+            icon: 'fab fa-node-js',
+            description: 'For backend work, my go-to tool is <a href="https://nodejs.org/en/" class="link" target="_blank">Node.js</a>, but I also have experience in <a href="https://www.php.net/" class="link" target="_blank">PHP</a>.'
         }
     ]);
 

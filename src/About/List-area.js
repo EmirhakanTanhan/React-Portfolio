@@ -3,12 +3,12 @@ import React, {useState} from 'react';
 const ListArea = () => {
     const [workExp, setWorkExp] = useState([
         {
-            date: 'Aug 2021 - Current · Istanbul, Turkey',
+            date: 'Aug 2021 - Sep 2021 · Istanbul, Turkey',
             title: 'Frontend Developer Intern in Onboarding Team',
             firm: '<a target="_blank" class="link-grey" href="https://www.segmentify.com/">Segmentify</a>'
         },
         {
-            date: 'Nov 2020 - Feb 2021 · Istanbul, Turkey',
+            date: 'Nov 2020 - Jan 2021 · Istanbul, Turkey',
             title: 'Full-Stack Developer Intern',
             firm: '<a target="_blank" class="link-grey" href="https://www.frelens.com/">Frelens</a>'
         },
